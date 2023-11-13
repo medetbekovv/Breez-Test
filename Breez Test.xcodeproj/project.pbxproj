@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3F5CFE26C49D733DED33DE /* Pods_Breez_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FB3EF04746AE6EDD56CC57 /* Pods_Breez_Test.framework */; };
 		2FB9FCF42AFBC8530071F48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FCF32AFBC8530071F48A /* AppDelegate.swift */; };
 		2FB9FCF62AFBC8530071F48A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FCF52AFBC8530071F48A /* SceneDelegate.swift */; };
-		2FB9FCF82AFBC8530071F48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FCF72AFBC8530071F48A /* ViewController.swift */; };
 		2FB9FCFB2AFBC8530071F48A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB9FCF92AFBC8530071F48A /* Main.storyboard */; };
 		2FB9FCFD2AFBC8540071F48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB9FCFC2AFBC8540071F48A /* Assets.xcassets */; };
 		2FB9FD002AFBC8540071F48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB9FCFE2AFBC8540071F48A /* LaunchScreen.storyboard */; };
+		2FB9FD082AFBC8A00071F48A /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD072AFBC8A00071F48A /* MainTabBarViewController.swift */; };
+		2FB9FD0A2AFBCA9A0071F48A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD092AFBCA9A0071F48A /* HomeViewController.swift */; };
+		2FB9FD0D2AFBCD100071F48A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD0C2AFBCD100071F48A /* BaseViewController.swift */; };
+		2FB9FD0F2AFBCD3B0071F48A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD0E2AFBCD3B0071F48A /* BaseView.swift */; };
+		2FB9FD1A2AFBDA840071F48A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD192AFBDA840071F48A /* HomeView.swift */; };
+		2FB9FD232AFBE4E00071F48A /* HomeViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD222AFBE4E00071F48A /* HomeViewTableViewCell.swift */; };
+		2FB9FD262AFC2BC80071F48A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD252AFC2BC80071F48A /* User.swift */; };
+		2FB9FD2A2AFC2EF10071F48A /* FlexibleHeightWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD292AFC2EF10071F48A /* FlexibleHeightWidth.swift */; };
+		2FB9FD2C2AFC3EB50071F48A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD2B2AFC3EB50071F48A /* Service.swift */; };
+		2FB9FD312AFC411A0071F48A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD302AFC411A0071F48A /* HomeViewModel.swift */; };
+		2FB9FD342AFCC79C0071F48A /* DetailUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD332AFCC79C0071F48A /* DetailUserViewController.swift */; };
+		2FB9FD362AFCC8310071F48A /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD352AFCC8310071F48A /* DetailUserView.swift */; };
+		2FB9FD3E2AFCF1520071F48A /* DetailViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD3D2AFCF1520071F48A /* DetailViewTableViewCell.swift */; };
+		2FB9FD412AFCF2000071F48A /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD402AFCF2000071F48A /* DetailModel.swift */; };
+		2FB9FD432AFCF2500071F48A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD422AFCF2500071F48A /* DetailViewModel.swift */; };
+		2FB9FD482AFD004A0071F48A /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB9FD472AFD004A0071F48A /* ThirdScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FB9FCF02AFBC8530071F48A /* Breez Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breez Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB9FCF32AFBC8530071F48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FB9FCF52AFBC8530071F48A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FB9FCF72AFBC8530071F48A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FB9FCFA2AFBC8530071F48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FB9FCFC2AFBC8540071F48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB9FCFF2AFBC8540071F48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FB9FD012AFBC8540071F48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB9FD072AFBC8A00071F48A /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		2FB9FD092AFBCA9A0071F48A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2FB9FD0C2AFBCD100071F48A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2FB9FD0E2AFBCD3B0071F48A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2FB9FD192AFBDA840071F48A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2FB9FD222AFBE4E00071F48A /* HomeViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTableViewCell.swift; sourceTree = "<group>"; };
+		2FB9FD252AFC2BC80071F48A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2FB9FD292AFC2EF10071F48A /* FlexibleHeightWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleHeightWidth.swift; sourceTree = "<group>"; };
+		2FB9FD2B2AFC3EB50071F48A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2FB9FD302AFC411A0071F48A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2FB9FD332AFCC79C0071F48A /* DetailUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewController.swift; sourceTree = "<group>"; };
+		2FB9FD352AFCC8310071F48A /* DetailUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
+		2FB9FD3D2AFCF1520071F48A /* DetailViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewTableViewCell.swift; sourceTree = "<group>"; };
+		2FB9FD402AFCF2000071F48A /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		2FB9FD422AFCF2500071F48A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		2FB9FD472AFD004A0071F48A /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
+		54FB3EF04746AE6EDD56CC57 /* Pods_Breez_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breez_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		769BB50961A2C4955DD5129F /* Pods-Breez Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breez Test.debug.xcconfig"; path = "Target Support Files/Pods-Breez Test/Pods-Breez Test.debug.xcconfig"; sourceTree = "<group>"; };
+		D86DC513DBAF5DFEAEB9D0BE /* Pods-Breez Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breez Test.release.xcconfig"; path = "Target Support Files/Pods-Breez Test/Pods-Breez Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3F5CFE26C49D733DED33DE /* Pods_Breez_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				2FB9FCF22AFBC8530071F48A /* Breez Test */,
 				2FB9FCF12AFBC8530071F48A /* Products */,
+				5B30312BFFCF96068A9FA667 /* Pods */,
+				BA10CB0B6BC95A4C02247880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,175 @@
 		2FB9FCF22AFBC8530071F48A /* Breez Test */ = {
 			isa = PBXGroup;
 			children = (
+				2FB9FD282AFC2EE10071F48A /* Extension */,
+				2FB9FD1E2AFBDB5C0071F48A /* Manager */,
+				2FB9FD1F2AFBDB680071F48A /* Flow */,
+				2FB9FD1D2AFBDAFD0071F48A /* TabBar */,
+				2FB9FD0B2AFBCCFF0071F48A /* Base */,
 				2FB9FCF32AFBC8530071F48A /* AppDelegate.swift */,
 				2FB9FCF52AFBC8530071F48A /* SceneDelegate.swift */,
-				2FB9FCF72AFBC8530071F48A /* ViewController.swift */,
 				2FB9FCF92AFBC8530071F48A /* Main.storyboard */,
 				2FB9FCFC2AFBC8540071F48A /* Assets.xcassets */,
 				2FB9FCFE2AFBC8540071F48A /* LaunchScreen.storyboard */,
 				2FB9FD012AFBC8540071F48A /* Info.plist */,
 			);
 			path = "Breez Test";
+			sourceTree = "<group>";
+		};
+		2FB9FD0B2AFBCCFF0071F48A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD0C2AFBCD100071F48A /* BaseViewController.swift */,
+				2FB9FD0E2AFBCD3B0071F48A /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2FB9FD102AFBCF040071F48A /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD2F2AFC410A0071F48A /* ViewModel */,
+				2FB9FD2E2AFC40FC0071F48A /* ViewController */,
+				2FB9FD242AFC2BBD0071F48A /* Model */,
+				2FB9FD212AFBDBA60071F48A /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		2FB9FD1D2AFBDAFD0071F48A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD072AFBC8A00071F48A /* MainTabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		2FB9FD1E2AFBDB5C0071F48A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD2B2AFC3EB50071F48A /* Service.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2FB9FD1F2AFBDB680071F48A /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD462AFD001C0071F48A /* ThirdSceen */,
+				2FB9FD322AFCC77B0071F48A /* DetailUserScreen */,
+				2FB9FD102AFBCF040071F48A /* HomeScreen */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		2FB9FD212AFBDBA60071F48A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD192AFBDA840071F48A /* HomeView.swift */,
+				2FB9FD222AFBE4E00071F48A /* HomeViewTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FB9FD242AFC2BBD0071F48A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD252AFC2BC80071F48A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FB9FD282AFC2EE10071F48A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD292AFC2EF10071F48A /* FlexibleHeightWidth.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2FB9FD2E2AFC40FC0071F48A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD092AFBCA9A0071F48A /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2FB9FD2F2AFC410A0071F48A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD302AFC411A0071F48A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FB9FD322AFCC77B0071F48A /* DetailUserScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD4A2AFD03510071F48A /* ViewModel */,
+				2FB9FD492AFD03450071F48A /* ViewController */,
+				2FB9FD452AFCF68F0071F48A /* Model */,
+				2FB9FD442AFCF6840071F48A /* View */,
+			);
+			path = DetailUserScreen;
+			sourceTree = "<group>";
+		};
+		2FB9FD442AFCF6840071F48A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD3D2AFCF1520071F48A /* DetailViewTableViewCell.swift */,
+				2FB9FD352AFCC8310071F48A /* DetailUserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FB9FD452AFCF68F0071F48A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD402AFCF2000071F48A /* DetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FB9FD462AFD001C0071F48A /* ThirdSceen */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD472AFD004A0071F48A /* ThirdScreenViewController.swift */,
+			);
+			path = ThirdSceen;
+			sourceTree = "<group>";
+		};
+		2FB9FD492AFD03450071F48A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD332AFCC79C0071F48A /* DetailUserViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2FB9FD4A2AFD03510071F48A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FB9FD422AFCF2500071F48A /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B30312BFFCF96068A9FA667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				769BB50961A2C4955DD5129F /* Pods-Breez Test.debug.xcconfig */,
+				D86DC513DBAF5DFEAEB9D0BE /* Pods-Breez Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA10CB0B6BC95A4C02247880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54FB3EF04746AE6EDD56CC57 /* Pods_Breez_Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FB9FD042AFBC8540071F48A /* Build configuration list for PBXNativeTarget "Breez Test" */;
 			buildPhases = (
+				D974ECF3CD01C6F0B494B6B4 /* [CP] Check Pods Manifest.lock */,
 				2FB9FCEC2AFBC8530071F48A /* Sources */,
 				2FB9FCED2AFBC8530071F48A /* Frameworks */,
 				2FB9FCEE2AFBC8530071F48A /* Resources */,
+				DB5F500843E5C08106F79188 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +332,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D974ECF3CD01C6F0B494B6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breez Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5F500843E5C08106F79188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Breez Test/Pods-Breez Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Breez Test/Pods-Breez Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Breez Test/Pods-Breez Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FB9FCEC2AFBC8530071F48A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB9FCF82AFBC8530071F48A /* ViewController.swift in Sources */,
+				2FB9FD262AFC2BC80071F48A /* User.swift in Sources */,
+				2FB9FD232AFBE4E00071F48A /* HomeViewTableViewCell.swift in Sources */,
+				2FB9FD2C2AFC3EB50071F48A /* Service.swift in Sources */,
+				2FB9FD412AFCF2000071F48A /* DetailModel.swift in Sources */,
+				2FB9FD312AFC411A0071F48A /* HomeViewModel.swift in Sources */,
+				2FB9FD432AFCF2500071F48A /* DetailViewModel.swift in Sources */,
+				2FB9FD0A2AFBCA9A0071F48A /* HomeViewController.swift in Sources */,
+				2FB9FD362AFCC8310071F48A /* DetailUserView.swift in Sources */,
+				2FB9FD1A2AFBDA840071F48A /* HomeView.swift in Sources */,
+				2FB9FD2A2AFC2EF10071F48A /* FlexibleHeightWidth.swift in Sources */,
+				2FB9FD482AFD004A0071F48A /* ThirdScreenViewController.swift in Sources */,
+				2FB9FD082AFBC8A00071F48A /* MainTabBarViewController.swift in Sources */,
 				2FB9FCF42AFBC8530071F48A /* AppDelegate.swift in Sources */,
+				2FB9FD0F2AFBCD3B0071F48A /* BaseView.swift in Sources */,
+				2FB9FD342AFCC79C0071F48A /* DetailUserViewController.swift in Sources */,
+				2FB9FD3E2AFCF1520071F48A /* DetailViewTableViewCell.swift in Sources */,
 				2FB9FCF62AFBC8530071F48A /* SceneDelegate.swift in Sources */,
+				2FB9FD0D2AFBCD100071F48A /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +538,7 @@
 		};
 		2FB9FD052AFBC8540071F48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769BB50961A2C4955DD5129F /* Pods-Breez Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +567,7 @@
 		};
 		2FB9FD062AFBC8540071F48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86DC513DBAF5DFEAEB9D0BE /* Pods-Breez Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
